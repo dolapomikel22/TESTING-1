@@ -1,0 +1,35 @@
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+body{
+    background-color: rgb(216, 227, 230);
+}
+
+img{
+    width: 360px;
+    border-radius: 10px;
+    margin-right: 98px;
+    margin-top: 23px;
+}
+
+.word{
+    padding: 124px;
+}
+
+button{
+    column-gap: 50px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgba(72, 88, 116, 0.71);
+    border:none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(68, 133, 213, 0.616);
+}
